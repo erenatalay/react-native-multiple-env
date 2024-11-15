@@ -10,7 +10,9 @@
     "setDevelopment": "ENVFILE=.env.dev",
     "setProduction": "ENVFILE=.env.prod",
     "run:aDev": "yarn setDevelopment react-native run-android --mode=devDebug --appIdSuffix=dev",
-    "run:aProd": "yarn setProduction react-native run-android --mode=prodDebug"
+    "run:aProd": "yarn setProduction react-native run-android --mode=prodDebug",
+    "run:iProd": "react-native run-ios --scheme 'myapp'",
+    "run:iDev": "react-native run-ios --scheme 'myappDev'"
   },
   "dependencies": {
     "expo": "~51.0.28",
